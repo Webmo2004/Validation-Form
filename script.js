@@ -6,8 +6,8 @@ let submitBtn = document.querySelector("[type='submit']");
 let form = document.forms[0]; // form selected
 
 // style ----
-submitBtn.className = "d-block my-2" ;
-emailInput.className = "d-block my-2" ;
+submitBtn.className = "my-2" ;
+emailInput.className = "my-2" ;
 
 document.body.style = "display:flex; align-items:center; justify-content:center; height:100dvh; background-color:rgb(43, 59, 86);" ;
 
