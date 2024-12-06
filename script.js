@@ -10,6 +10,8 @@ submitBtn.className = "d-block my-2" ;
 emailInput.className = "d-block my-2" ;
 
 document.body.style = "display:flex; align-items:center; justify-content:center; height:100dvh; background-color:rgb(43, 59, 86);" ;
+
+// onload page function 
 window.onload = function (){
   userNameInput.focus();
 };
