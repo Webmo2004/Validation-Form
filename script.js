@@ -33,10 +33,10 @@ form.onsubmit = function (validation){
     userNameInput.classList.add("border-success");
   }
 
-  if (!emailInput.value.includes("hossame")){
+  if (!emailInput.value.includes("M")){
     emailValidation = false ;
     emailInput.setAttribute("class","d-block my-2 border border-3 border-danger");
-  } else if (emailInput.value.includes("hossame")) {
+  } else if (emailInput.value.includes("M")) {
     emailValidation = true ;
     emailInput.classList.remove("border-danger");
     emailInput.classList.add("border-success");
