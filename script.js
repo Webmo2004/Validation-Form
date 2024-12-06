@@ -9,7 +9,7 @@ let form = document.forms[0]; // form selected
 submitBtn.className = "my-2" ;
 emailInput.className = "my-2" ;
 
-document.body.cssText = "display:flex; align-items:center; justify-content:center; height:100dvh; background-color:rgb(43, 59, 86);" ;
+document.body.style = "display:flex; align-items:center; justify-content:center; height:100dvh; background-color:rgb(43, 59, 86);" ;
 
 // onload page function 
 window.onload = function (){
